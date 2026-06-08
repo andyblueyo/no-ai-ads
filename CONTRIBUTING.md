@@ -15,10 +15,9 @@ Domains:
 - app.example.ai
 
 Network:
-||example.ai^$third-party
-
-Exceptions:
-@@||example.ai^$document
+||example.com^$third-party
+##a[href*="example.com"]
+##article:has(a[href*="example.com"])
 
 # Guide to how to format properly 
 ## Example links
