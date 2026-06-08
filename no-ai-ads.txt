@@ -181,6 +181,44 @@
 ||cerebras.ai^$third-party
 ||cerebras.net^$third-party
 
+! --------------------------------
+! SEARCH ENGINES
+! --------------------------------
+
+google.com##[data-text-ad](a[href*="openai"])
+google.com##[data-text-ad](a[href*="claude"])
+google.com##[data-text-ad](a[href*="cursor"])
+
+bing.com##li(a[href*="openai"])
+bing.com##li(a[href*="anthropic"])
+
+duckduckgo.com##article(a[href*="openai"])
+
+! --------------------------------
+! SOCIAL
+! --------------------------------
+
+reddit.com##article(a[href*="openai"])
+reddit.com##article(a[href*="cursor"])
+
+youtube.com##a[href*="openai"]
+youtube.com##a[href*="anthropic"]
+
+linkedin.com##article(a[href*="openai"])
+
+! --------------------------------
+! GENERIC AI LABELS
+! --------------------------------
+
+##[aria-label*="AI"]
+##[aria-label*="artificial intelligence"]
+
+! --------------------------------
+! SPONSORED CONTENT
+! --------------------------------
+
+##[class*="sponsored"](a[href*="openai"])
+##[class*="promo"](a[href*="claude"])
 
 ! ===========================
 ! COSMETIC FILTERS
@@ -198,3 +236,19 @@
 ##a[href*="perplexity.ai"]
 ##a[href*="cursor.com"]
 ##a[href*="midjourney.com"]
+
+! Hide links to AI companies
+##a[href*="openai.com"]
+##a[href*="chatgpt.com"]
+
+##a[href*="anthropic.com"]
+##a[href*="claude.ai"]
+##a[href*="cursor.com"]
+! Hide parent containers
+##article(a[href*="openai.com"])
+##article(a[href*="claude.ai"])
+
+##div(a[href*="openai.com"])
+##div(a[href*="anthropic.com"])
+
+
