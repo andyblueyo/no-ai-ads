@@ -3,7 +3,7 @@
 A uBlock Origin filter list that blocks ads from AI startups and AI-branded businesses.
 
 ## Built with AI
-AI did the heavey lifting on building and creating this repo. I know this seems hypocritical to be using AI to block AI and AI related businesses, but AI is a tool at our disposable and it's our choice on how we use it. I chose to use AI responsibly to create tools to combat againest AI. So yes, this list was built with the help of AI. Specifically Claude by Anthropic — one of the companies blocked by this very list.
+AI did the heavy lifting on building and creating this repo. I know this seems hypocritical to be using AI to block AI and AI related businesses, but AI is a tool at our disposable and it's our choice on how we use it. I chose to use AI responsibly to create tools to combat againest AI. So yes, this list was built with the help of AI. Specifically Claude by Anthropic — one of the companies blocked by this very list.
 
 ## Subscribe
 
