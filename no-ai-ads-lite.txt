@@ -1,0 +1,107 @@
+# no-ai-ads-lite.txt
+
+! Title: No AI Ads (Lite)
+! Description: Blocks third-party AI company requests and common AI promotion links.
+! Homepage: https://github.com/andyblueyo/no-ai-ads
+! License: CC0
+! Expires: 7 days
+! Version: 0.1.0
+
+! --------------------------------
+! PHILOSOPHY
+! --------------------------------
+!
+! This list blocks AI advertising,
+! promotional embeds, and third-party
+! loading from AI companies.
+!
+! Direct visits still work.
+! Choosing to visit ≠ seeing ads.
+
+! --------------------------------
+! FOUNDATION MODELS
+! --------------------------------
+
+||openai.com^$third-party
+||chatgpt.com^$third-party
+||sora.com^$third-party
+
+||anthropic.com^$third-party
+||claude.ai^$third-party
+
+||deepmind.google^$third-party
+||gemini.google.com^$third-party
+
+||x.ai^$third-party
+||grok.com^$third-party
+
+||meta.ai^$third-party
+
+||mistral.ai^$third-party
+
+! --------------------------------
+! CODING
+! --------------------------------
+
+||cursor.com^$third-party
+||cursor.sh^$third-party
+||codeium.com^$third-party
+||windsurf.com^$third-party
+||replit.com^$third-party
+||cognition.ai^$third-party
+||devin.ai^$third-party
+
+! --------------------------------
+! SEARCH / ASSISTANTS
+! --------------------------------
+
+||perplexity.ai^$third-party
+||you.com^$third-party
+||cohere.com^$third-party
+||character.ai^$third-party
+
+! --------------------------------
+! PRODUCTIVITY
+! --------------------------------
+
+||grammarly.com^$third-party
+||jasper.ai^$third-party
+||copy.ai^$third-party
+||writesonic.com^$third-party
+||elevenlabs.io^$third-party
+
+! --------------------------------
+! IMAGE / VIDEO
+! --------------------------------
+
+||midjourney.com^$third-party
+||runwayml.com^$third-party
+||runway.com^$third-party
+||stability.ai^$third-party
+||pika.art^$third-party
+||klingai.com^$third-party
+
+! --------------------------------
+! INFRA
+! --------------------------------
+
+||scale.com^$third-party
+||huggingface.co^$third-party
+||databricks.com^$third-party
+||together.ai^$third-party
+||replicate.com^$third-party
+||harvey.ai^$third-party
+||sierra.ai^$third-party
+||decagon.ai^$third-party
+
+! --------------------------------
+! ALLOW DIRECT VISITS
+! --------------------------------
+
+@@||openai.com^$document
+@@||chatgpt.com^$document
+@@||claude.ai^$document
+@@||anthropic.com^$document
+@@||cursor.com^$document
+@@||perplexity.ai^$document
+@@||midjourney.com^$document
