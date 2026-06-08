@@ -96,6 +96,11 @@
 ||character.ai^$third-party
 ||character.com^$third-party
 
+! Friend
+||friend.com^$third-party
+##a[href*="friend.com"]
+##article:has(a[href*="friend.com"])
+
 
 ! ===========================
 ! AI PRODUCTIVITY / WRITING
@@ -172,6 +177,15 @@
 ! Decagon
 ||decagon.ai^$third-party
 
+! Profound
+||tryprofound.com^$third-party
+##a[href*="tryprofound.com"]
+##article:has(a[href*="tryprofound.com"])
+
+! Clay
+||clay.com^$third-party
+##a[href*="clay.com"]
+##article:has(a[href*="clay.com"])
 
 ! ===========================
 ! AI HARDWARE / CHIPS
@@ -247,6 +261,7 @@ linkedin.com##article(a[href*="openai"])
 ! Hide parent containers
 ##article(a[href*="openai.com"])
 ##article(a[href*="claude.ai"])
+
 
 ##div(a[href*="openai.com"])
 ##div(a[href*="anthropic.com"])
