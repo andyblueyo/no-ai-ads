@@ -5,6 +5,8 @@ A uBlock Origin filter list that blocks ads from AI startups and AI-branded busi
 ## Built with AI
 AI did the heavy lifting on building and creating this repo. I know this seems hypocritical to be using AI to block AI and AI related businesses, but AI is a tool at our disposable and it's our choice on how we use it. I chose to use AI responsibly to create tools to combat againest AI. So yes, this list was built with the help of AI. Specifically Claude by Anthropic — one of the companies blocked by this very list.
 
+AI can make mistakes. As always human contributors and edits are always welcome! 
+
 ## Subscribe
 
 > ⚠️ **Chrome users:** uBlock Origin on Chrome is the "Lite" version due to Google's Manifest V3 restrictions and does **not** support external filter list subscriptions. Use Firefox or Brave for the full experience.
