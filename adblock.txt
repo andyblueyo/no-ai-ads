@@ -1,0 +1,108 @@
+! ===========================
+! No AI Ads — AdBlock Compatible
+! ===========================
+
+! AI FOUNDATION LABS
+||openai.com^$third-party
+||chatgpt.com^$third-party
+||sora.com^$third-party
+
+||anthropic.com^$third-party
+||claude.ai^$third-party
+
+||deepmind.google^$third-party
+||gemini.google.com^$third-party
+
+||x.ai^$third-party
+||grok.com^$third-party
+
+||meta.ai^$third-party
+||mistral.ai^$third-party
+
+
+! AI CODING TOOLS
+||cursor.com^$third-party
+||cursor.sh^$third-party
+
+||copilot.github.com^$third-party
+||githubnext.com^$third-party
+
+||replit.com^$third-party
+||codeium.com^$third-party
+||windsurf.com^$third-party
+
+||cognition.ai^$third-party
+||devin.ai^$third-party
+
+
+! AI SEARCH & ASSISTANTS
+||perplexity.ai^$third-party
+||you.com^$third-party
+||cohere.com^$third-party
+
+||character.ai^$third-party
+||character.com^$third-party
+
+||friend.com^$third-party
+
+
+! AI PRODUCTIVITY / WRITING
+||notion.so^$third-party
+||grammarly.com^$third-party
+||jasper.ai^$third-party
+||copy.ai^$third-party
+||writesonic.com^$third-party
+||elevenlabs.io^$third-party
+
+
+! AI IMAGE / VIDEO
+||midjourney.com^$third-party
+||runwayml.com^$third-party
+||runway.com^$third-party
+||stability.ai^$third-party
+||firefly.adobe.com^$third-party
+||pika.art^$third-party
+||klingai.com^$third-party
+
+
+! AI INFRA / B2B
+||scale.com^$third-party
+||huggingface.co^$third-party
+||databricks.com^$third-party
+||together.ai^$third-party
+||replicate.com^$third-party
+||harvey.ai^$third-party
+||sierra.ai^$third-party
+||decagon.ai^$third-party
+||tryprofound.com^$third-party
+||clay.com^$third-party
+
+
+! AI HARDWARE / CHIPS
+||cerebras.ai^$third-party
+||cerebras.net^$third-party
+
+
+! ===========================
+! COSMETIC FILTERS (SAFE ABP STYLE)
+! ===========================
+
+! Generic sponsored/AI labels
+##[class*="sponsored"]
+##[class*="promo"]
+##[class*="ad"]
+
+##[aria-label*="AI"]
+##[aria-label*="artificial intelligence"]
+
+##[id*="ai-banner"]
+##[class*="ai-ad"]
+##[class*="ai-promo"]
+
+
+! AI link mentions (simple, broad)
+openai.com##a[href*="openai.com"]
+anthropic.com##a[href*="anthropic.com"]
+perplexity.ai##a[href*="perplexity.ai"]
+cursor.com##a[href*="cursor.com"]
+midjourney.com##a[href*="midjourney.com"]
