@@ -1,0 +1,200 @@
+! Title: No AI Ads
+! Description: Blocks ads and sponsored content from AI startups and AI-branded businesses
+! Homepage: https://github.com/andyblueyo/no-ai-ads
+! License: https://creativecommons.org/publicdomain/zero/1.0/
+! Expires: 7 days
+! Last modified: 2026-06-08
+! Version: 0.1.0
+!
+! ---- HOW TO USE ----
+!
+! OPTION 1 — Subscribe via URL (Firefox or Brave only)
+!   Firefox + uBlock Origin or Brave's built-in blocker both support
+!   subscribing to external filter lists. Chrome's uBlock Origin Lite
+!   does NOT support this feature due to Manifest V3 restrictions.
+!
+!   In Firefox/Brave: open uBlock Origin (or Brave Shields) settings >
+!   Filter lists > scroll to bottom > paste this raw URL and hit Apply:
+!   https://raw.githubusercontent.com/andyblueyo/no-ai-ads/main/no-ai-ads.txt
+!
+! OPTION 2 — Paste manually (any browser)
+!   Works in Chrome too. Open uBlock Origin > Custom filters >
+!   paste the contents of this file > Import and append.
+!   Note: you'll need to re-paste manually when the list updates.
+!
+! ---- CONTRIBUTING ----
+! Spotted an AI ad not on this list? Open an issue or PR on GitHub:
+! https://github.com/andyblueyo/no-ai-ads
+
+
+! ===========================
+! AI FOUNDATION LABS
+! ===========================
+
+! OpenAI / ChatGPT
+||openai.com^$third-party
+||chatgpt.com^$third-party
+||sora.com^$third-party
+
+! Anthropic / Claude
+||anthropic.com^$third-party
+||claude.ai^$third-party
+
+! Google DeepMind / Gemini
+||deepmind.google^$third-party
+||gemini.google.com^$third-party
+
+! xAI / Grok
+||x.ai^$third-party
+||grok.com^$third-party
+
+! Meta AI
+||meta.ai^$third-party
+
+! Mistral
+||mistral.ai^$third-party
+
+
+! ===========================
+! AI CODING TOOLS
+! ===========================
+
+! Cursor / Anysphere
+||cursor.com^$third-party
+||cursor.sh^$third-party
+
+! GitHub Copilot (ads, not github.com itself)
+||githubnext.com^$third-party
+||copilot.github.com^$third-party
+
+! Replit
+||replit.com^$third-party
+
+! Windsurf / Codeium
+||codeium.com^$third-party
+||windsurf.com^$third-party
+
+! Devin / Cognition
+||cognition.ai^$third-party
+||devin.ai^$third-party
+
+
+! ===========================
+! AI SEARCH & ASSISTANTS
+! ===========================
+
+! Perplexity
+||perplexity.ai^$third-party
+
+! You.com
+||you.com^$third-party
+
+! Cohere
+||cohere.com^$third-party
+
+! Character.AI
+||character.ai^$third-party
+||character.com^$third-party
+
+
+! ===========================
+! AI PRODUCTIVITY / WRITING
+! ===========================
+
+! Notion AI (ads only, not notion.com itself)
+||notion.so^$third-party
+
+! Grammarly
+||grammarly.com^$third-party
+
+! Jasper
+||jasper.ai^$third-party
+
+! Copy.ai
+||copy.ai^$third-party
+
+! Writesonic
+||writesonic.com^$third-party
+
+! ElevenLabs
+||elevenlabs.io^$third-party
+
+
+! ===========================
+! AI IMAGE / VIDEO GENERATION
+! ===========================
+
+! Midjourney
+||midjourney.com^$third-party
+
+! Runway
+||runwayml.com^$third-party
+||runway.com^$third-party
+
+! Stability AI
+||stability.ai^$third-party
+
+! Adobe Firefly (ads only)
+||firefly.adobe.com^$third-party
+
+! Pika
+||pika.art^$third-party
+
+! Kling AI
+||klingai.com^$third-party
+
+
+! ===========================
+! AI INFRASTRUCTURE / B2B
+! ===========================
+
+! Scale AI
+||scale.com^$third-party
+
+! Hugging Face
+||huggingface.co^$third-party
+
+! Databricks
+||databricks.com^$third-party
+
+! Together AI
+||together.ai^$third-party
+
+! Replicate
+||replicate.com^$third-party
+
+! Harvey (legal AI)
+||harvey.ai^$third-party
+
+! Sierra (customer AI)
+||sierra.ai^$third-party
+
+! Decagon
+||decagon.ai^$third-party
+
+
+! ===========================
+! AI HARDWARE / CHIPS
+! ===========================
+
+! Cerebras
+||cerebras.ai^$third-party
+||cerebras.net^$third-party
+
+
+! ===========================
+! COSMETIC FILTERS
+! (hide AI ad banners by keyword patterns)
+! ===========================
+
+! Hide elements with AI-branded ad class names (generic)
+##[class*="ai-ad"]
+##[class*="ai-promo"]
+##[id*="ai-banner"]
+
+! Hide "Powered by AI" / "Built with AI" promotional banners
+##a[href*="openai.com"]:not([href*="platform"])
+##a[href*="anthropic.com"]:not([href*="docs"])
+##a[href*="perplexity.ai"]
+##a[href*="cursor.com"]
+##a[href*="midjourney.com"]
